@@ -1,5 +1,5 @@
 ## MRI Image Classifier 🧠
-This repository contains a project for classifying MRI images into different categories of brain tumor using a deep learning model based on the VGG16 architecture. The project is implemented in Python using TensorFlow.
+This repository focuses on classifying MRI images of the brain to detect the presence of different types of tumours (glioma, meningioma, and pituitary), as well as cases with no tumour. It uses Python and it's libraries including TensorFlow/Keras, scikit-learn. The following is a breakdown of the code, the model, and the associated diagrams:
 # 
 ## ✅ Project Structure
 
