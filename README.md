@@ -78,7 +78,7 @@ Trains a fine-tuned VGG16 model.
 ✔️Evaluation Metrics
 The script includes functions for model evaluation:
 
-Training and Validation Plots: Visualize accuracy and loss.
+✔️Training and Validation Plots: Visualize accuracy and loss.
 Classification Report: Precision, recall, and F1 score.
 Confusion Matrix: Detailed view of predictions.
 ROC Curve and AUC: Performance of the classifier.
