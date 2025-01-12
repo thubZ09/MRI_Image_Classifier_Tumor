@@ -53,10 +53,8 @@ Flatten layer to convert feature maps into a single vector.
 ✔️Hyperparameters:
 Optimizer: 
 Adam with a learning rate of 0.0001.
-
 Loss Function: 
 Sparse Categorical Crossentropy.
-
 Metrics: 
 Sparse Categorical Accuracy.
 
