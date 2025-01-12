@@ -1,7 +1,7 @@
 ## MRI Image Classifier
 This repository contains a project for classifying MRI images into different categories using a deep learning model based on the VGG16 architecture. The project is implemented in Python using TensorFlow.
 
-##✅ Project Structure
+✅ Project Structure
 
 ✔️Files and Directories:
 model.h5: The pre-trained TensorFlow model for MRI classification.
@@ -16,7 +16,7 @@ Specifies files and directories to exclude from Git tracking.
 Training/: Contains training images categorized into subfolders by label.
 Testing/: Contains testing images categorized into subfolders by label.
 
-##✅ Dependencies
+✅ Dependencies
 
 ✔️Ensure you have the following libraries installed:
 TensorFlow
@@ -28,7 +28,7 @@ Seaborn
 
 ✔️Install the required dependencies using: pip install -r requirements.txt
 
-##✅Model Details
+✅Model Details
 
 ✔️Base Model:
 VGG16: A pre-trained convolutional neural network (CNN) model from TensorFlow's applications module.
@@ -56,14 +56,14 @@ Sparse Categorical Crossentropy.
 Metrics: 
 Sparse Categorical Accuracy.
 
-##✅ Run the Project
+✅ Run the Project
 
 ✔️Clone the Repository
 ✔️Train the Model
 If you want to retrain the model, ensure you have the training data in the correct folder structure and modify the train_dir and test_dir variables in the script accordingly.
 ✔️Run the training script in an environment with the required libraries installed.
 
-##✅Features
+✅Features
 ✔️Model Training and Testing
 Loads and preprocesses MRI images.
 Applies data augmentation (brightness and contrast adjustments).
