@@ -16,6 +16,7 @@ Specifies files and directories to exclude from Git tracking.
 Training/: Contains training images categorized into subfolders by label.
 Testing/: Contains testing images categorized into subfolders by label.
 
+
 ✅ Dependencies
 
 ✔️Ensure you have the following libraries installed:
@@ -27,6 +28,7 @@ Scikit-learn
 Seaborn
 
 ✔️Install the required dependencies using: pip install -r requirements.txt
+
 
 ✅Model Details
 
@@ -56,6 +58,7 @@ Sparse Categorical Crossentropy.
 Metrics: 
 Sparse Categorical Accuracy.
 
+
 ✅ Run the Project
 
 ✔️Clone the Repository
@@ -63,24 +66,46 @@ Sparse Categorical Accuracy.
 If you want to retrain the model, ensure you have the training data in the correct folder structure and modify the train_dir and test_dir variables in the script accordingly.
 ✔️Run the training script in an environment with the required libraries installed.
 
+
 ✅Features
 ✔️Model Training and Testing
 Loads and preprocesses MRI images.
 Applies data augmentation (brightness and contrast adjustments).
 Trains a fine-tuned VGG16 model.
 
-![image](https://github.com/user-attachments/assets/4e2b0b7a-2032-476e-9b40-92007bdcaba4)
-
 ✔️Evaluation Metrics
-
-   ![image](https://github.com/user-attachments/assets/9c9887f8-6a9c-4762-ae2e-35cb0924b02f)
-
 The script includes functions for model evaluation:
 
 Training and Validation Plots: Visualize accuracy and loss.
 Classification Report: Precision, recall, and F1 score.
 Confusion Matrix: Detailed view of predictions.
 ROC Curve and AUC: Performance of the classifier.
+
+
+✅Model Evaluation
+
+✔️Training and Validation Plots:
+
+Visualize training history:
+
+![image](https://github.com/user-attachments/assets/4e2b0b7a-2032-476e-9b40-92007bdcaba4)
+
+
+✔️Classification Report and Confusion Matrix:
+
+<img width="509" alt="Screenshot 2025-01-12 112401" src="https://github.com/user-attachments/assets/6cee3fba-cf2e-4e74-99f6-df9397cdd2d4" />
+
+
+✔️Evaluate model predictions on the test set:
+
+![image](https://github.com/user-attachments/assets/efd06eed-4b97-42f5-8880-90c62b2e4234)
+
+
+✔️ROC Curve:
+
+![image](https://github.com/user-attachments/assets/cb246c92-35e0-4efd-9be9-bea1439d3cbb)
+
+
 
 
 
