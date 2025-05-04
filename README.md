@@ -1,7 +1,7 @@
 ## MRI Image Classifier 🧠
-This repository focuses on classifying MRI images of the brain to detect the presence of different types of tumours (glioma, meningioma, and pituitary), as well as cases with no tumour. It uses Python and it's libraries including TensorFlow/Keras, scikit-learn. The following is a breakdown of the code, the model, and the associated diagrams:
-# 
-## ✅ Project Structure
+This repository focuses on classifying MRI images of the brain to detect the presence of different types of tumours (glioma, meningioma, and pituitary), and cases with no tumour. It uses TensorFlow/Keras and scikit-learn.
+
+##  Project Structure
 
 ✔️Files and Directories:
 model.h5: The pre-trained TensorFlow model for MRI classification.
@@ -18,7 +18,7 @@ Testing/: Contains testing images categorized into subfolders by label.
 
 #
 
-## ✅ Dependencies
+##  Dependencies
 
 ✔️Ensure you have the following libraries installed:
 TensorFlow
@@ -32,7 +32,7 @@ Seaborn
 
 #
 
-## ✅Model Details
+## Model Details
 
 ✔️Base Model:
 VGG16: A pre-trained convolutional neural network (CNN) model from TensorFlow's applications module.
@@ -57,15 +57,6 @@ Loss Function:
 Sparse Categorical Crossentropy.
 Metrics: 
 Sparse Categorical Accuracy.
-
-#
-
-## ✅ Run the Project
-
-✔️Clone the Repository
-✔️Train the Model
-If you want to retrain the model, ensure you have the training data in the correct folder structure and modify the train_dir and test_dir variables in the script accordingly.
-✔️Run the training script in an environment with the required libraries installed.
 
 #
 
